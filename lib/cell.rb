@@ -1,10 +1,12 @@
 # It has responsibility for living and dying
 class Cell
-  def initialize(state=0)
+  attr_reader :state
+
+  def initialize(state = :dead)
     @state = state
   end
 
   def switch
-    @state == 0 ? @state = 1 : @state = 0
+    @state == :dead ? @state = :alive : @state = :dead
   end
 end
