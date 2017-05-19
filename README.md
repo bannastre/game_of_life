@@ -1,6 +1,6 @@
 # Conway's Game of Life #
 
-## A first attempt at building Life ##
+## A first attempt at building 'Life' ##
 
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
@@ -18,4 +18,8 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 ## Installation ##
 
 Run ```bundle``` or first run ```gem install bundle``` if not already installed.
-Then run command ```ruby board.rb``` 
+Then run command ```ruby board.rb```
+
+#### Requirements ####
+
+Developed with Ruby (v2.4.1)
