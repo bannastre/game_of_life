@@ -1,4 +1,4 @@
-# It has responsibility for living and dying
+# It understands switching between dead and alive
 class Cell
   attr_reader :state
 
